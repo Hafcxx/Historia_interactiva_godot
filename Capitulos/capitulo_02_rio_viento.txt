@@ -1,0 +1,22 @@
+{
+  "titulo": "La Ultima Prueba",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "rio_final_viento.jpg",
+  "musica": "rio_final.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Buscar algún objeto con que cruzar",
+"Tomas un descanso para pensar, no sabes que hacer"
+  ],
+  "direcciones": [
+"capitulo_02_bote_viejo",
+"capitulo_02_rio_bruja"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Intentas detener el fuerte viento con un hechizo, pero tu magia no es lo suficientemente poderosa&o quizás hay algo más, algo misterioso, que está causando este viento imparable."
+}

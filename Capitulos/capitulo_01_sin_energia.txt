@@ -1,0 +1,20 @@
+{
+  "titulo": "El rio",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "rio_cruza_sin_energia.jpg",
+  "musica": "rio.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Continuar"
+  ],
+  "direcciones": [
+"casa_mojado"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Te quedas sin energías y caes al río. El agua te arrastra y antes de que te des cuenta, pierdes el conocimiento..."
+}

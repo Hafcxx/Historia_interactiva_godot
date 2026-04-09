@@ -1,0 +1,20 @@
+{
+  "titulo": "En Casa",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "casa_tranquilo.jpg",
+  "musica": "casa.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Volver a intentar"
+  ],
+  "direcciones": [
+    "inicio_02"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Te vas a casa a tomar leche calentita y a ver tus caricaturas favoritas, no hay presiones&Siempre hay tiempo para volver a intentarlo."
+}

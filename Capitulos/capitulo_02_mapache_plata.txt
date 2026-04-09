@@ -1,0 +1,21 @@
+{
+  "titulo": "El Mapache",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "mapache_plata.jpg",
+  "musica": "bosque.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Continuar"
+  ],
+  "direcciones": [
+"capitulo_02_tres_caminos"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "El mapache te mira y dice: —De acuerdo, joven mago, escucha bien. Más adelante encontrarás un río de corriente rápida&Junto a la orilla, verás un bote viejo. Empújalo y súbete, así podrás cruzar el río.- 
+&Agradeces al mapache antes de que se vaya."
+}

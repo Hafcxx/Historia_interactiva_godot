@@ -1,0 +1,27 @@
+{
+  "titulo": "Tutorial",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "tutorial.jpg",
+  "musica": "inicio.mp3",
+  "personaje": "Mago",
+  "opciones": [
+"Esta no es correcta",
+"Esta tampoco",
+"Ya casi",
+"Esta sí"
+  ],
+  "direcciones": [
+    "tutorial_03",
+"tutorial_03",
+"tutorial_03",
+"tutorial_04"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true",
+"true"
+  ],
+  "texto": "Cuando aparezcan opciones, presiona las flechas verdes para la elegir la correcta, luego presiona el botón azul"
+}

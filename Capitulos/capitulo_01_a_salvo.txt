@@ -1,0 +1,20 @@
+{
+  "titulo": "El rio",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "rio_a_salvo.jpg",
+  "musica": "a_salvo.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Continuar"
+  ],
+  "direcciones": [
+    "capitulo_02_las_planicies"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Gracias a tu habilidad con los hechizos logras alejarte del río y aterrizas suavemente en la orilla&El peligro del río quedó atrás, pero sabes que aún debes estar alerta."
+}

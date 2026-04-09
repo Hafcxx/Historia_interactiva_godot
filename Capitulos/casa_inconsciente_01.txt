@@ -1,0 +1,20 @@
+{
+  "titulo": "En casa",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "despiertas_en_casa.jpg",
+  "musica": "casa.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Volver a intentarlo"
+  ],
+  "direcciones": [
+"inicio_02"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Al despertar, te encuentras de vuelta en tu aldea, confundido y triste&No recuerdas como llegaste, pero sabes que has perdido la oportunidad de superar el desafío del Bosque Encantado&pero estuviste muy cerca de lograrlo."
+}

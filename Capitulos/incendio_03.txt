@@ -1,0 +1,20 @@
+{
+  "titulo": "Las Planicies",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "incendio_03.jpg",
+  "musica": "aldea.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Volver a intentar"
+  ],
+  "direcciones": [
+    "inicio_01"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "La bruja Ojos de Gato te observa en silencio por un momento, luego pronuncia un conjuro en una lengua antigua&Antes de que puedas reaccionar, una ráfaga de viento te envuelve. —Por tu irresponsabilidad, has fallado la prueba&joven mago —dice, su voz firme. En un parpadeo, te encuentras de vuelta en tu aldea, confundido y triste& Sabes que has perdido la oportunidad de superar el desafío del Bosque Encantado... esta vez."
+}

@@ -1,0 +1,27 @@
+{
+  "titulo": "El Jabalí",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "el_jabali.jpg",
+  "musica": "planicies.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Usas un hechizo de fuego",
+"Usas un hechizo de viento",
+"Sigues tu camino, buscando otro desafío",
+"Tratas de liberarlo utilizando tus tijeras mágicas"
+  ],
+  "direcciones": [
+"capitulo_02_fuego_jabali",
+"capitulo_02_viento_jabali",
+"capitulo_02_mapache_01",
+"capitulo_02_libre_jabali"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true",
+"true"
+  ],
+  "texto": "Al continuar tu camino, te encuentras con un pequeño jabalí atrapado entre unas enredaderas mágicas."
+}

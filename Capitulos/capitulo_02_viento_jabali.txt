@@ -1,0 +1,22 @@
+{
+  "titulo": "El Jabalí",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "jabali_viento.jpg",
+  "musica": "planicies.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Sigues tu camino, buscando otro desafío",
+"Tratas de liberar al jabalí utilizando tu pequeño cuchillo"
+  ],
+  "direcciones": [
+"capitulo_02_mapache_01",
+"capitulo_02_libre_jabali"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Pronuncias rápidamente un hechizo de viento, esperando que te libere de las raíces&Sin embargo, el viento levanta las hojas y ramas, pero en lugar de ayudar al pequeño jabalí parece estar mas enredado que antes."
+}

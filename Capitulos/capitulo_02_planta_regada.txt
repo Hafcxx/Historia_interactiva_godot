@@ -1,0 +1,20 @@
+{
+  "titulo": "Las Planta",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "planta_regada.jpg",
+  "musica": "la_planta.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Continuar"
+  ],
+  "direcciones": [
+"capitulo_02_jabali"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Muchas gracias por tu ayuda, joven mago. A cambio, te daré un consejo&- Cuando llegues a un camino que se divide en tres, elige el más oscuro. Si no lo haces, no podrás pasar tu prueba -"
+}

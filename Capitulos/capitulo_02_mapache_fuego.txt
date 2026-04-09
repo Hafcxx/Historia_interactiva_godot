@@ -1,0 +1,22 @@
+{
+  "titulo": "El Mapache",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "mapache_fuego.jpg",
+  "musica": "mapache.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Te apresuras a continuar antes de que algo peor suceda",
+"Apagas rápidamente el fuego con un hechizo de lluvia"
+  ],
+  "direcciones": [
+"incendio_01",
+"capitulo_02_mapache_fuego_extinto"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "El mapache sale corriendo asustado perro tu hechizo inicia un pequeño fuego en el bosque. "
+}

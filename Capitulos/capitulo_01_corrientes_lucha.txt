@@ -1,0 +1,20 @@
+{
+  "titulo": "El rio",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "rio_corrientes_lucha.jpg",
+  "musica": "corrientes.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Continuar"
+  ],
+  "direcciones": [
+    "casa_mojado"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Luchas con todas tus fuerzas contra la corriente, pero el río parece tener voluntad propia&A pesar de tus esfuerzos, el agua te arrastra cada vez más rápido. Antes de que te des cuenta, pierdes el conocimiento..."
+}

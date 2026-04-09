@@ -1,0 +1,24 @@
+{
+  "titulo": "El rio",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "rio.jpg",
+  "musica": "rio.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Busco un puente o una forma de rodear el río",
+"Intento cruzar nadando",
+"Uso el Hechizo Flotante para levitar sobre el agua"
+  ],
+  "direcciones": [
+    "capitulo_01_no_encuentra_nada",
+"capitulo_01_cruza_nadando",
+"capitulo_01_cruza_flotando"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "El primer obstáculo es cruzar el río antes de alcanzar el bosque, el río parece tranquilo, pero puede tener algún peligro oculto."
+}

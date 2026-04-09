@@ -1,0 +1,24 @@
+{
+  "titulo": "Las Planicies",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "hierva.jpg",
+  "musica": "planicies.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Preparo mis puños por si tengo que pelear",
+"Avanzo despreocupado",
+"Preparo mi amuleto de tortuga, para la suerte"
+  ],
+  "direcciones": [
+    "capitulo_02_envenenado",
+"capitulo_02_envenenado",
+"capitulo_02_amuleto"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Te adentras en la hierba alta y caminas dificultosamente&Solo puedes escuchar el viento que pasa entre la hierba y tus pisadas torpes Pero luego escuchas algo más&No estás seguro de qué, pero presientes que no es algo bueno..."
+}

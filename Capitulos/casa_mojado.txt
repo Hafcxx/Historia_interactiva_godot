@@ -1,0 +1,20 @@
+{
+  "titulo": "En Casa",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "casa_mojado.jpg",
+  "musica": "casa.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Volver a Intentar",
+  ],
+  "direcciones": [
+    "inicio_01"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Tiempo después despiertas en la orilla del río. Te pones de pie, mojado y cansado, y miras a tu alrededor&Estás de vuelta en casa, sin haber logrado cruzar el río, la prueba ha terminado pero no como esperabas&Tal vez, algún día, estarás listo para intentarlo de nuevo."
+}

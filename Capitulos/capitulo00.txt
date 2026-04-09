@@ -1,0 +1,12 @@
+{
+"titulo":"",
+"vida":0,
+"objeto":"",
+"fondo":"",
+"musica":"",
+"personaje":"",
+"opciones":["string1", "string2", "string3"],
+"direcciones":["string1", "string2", "string3"],
+"condiciones":["string1", "string2", "string3"],
+"texto":"Esta es una historia"
+}

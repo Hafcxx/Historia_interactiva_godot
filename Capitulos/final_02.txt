@@ -1,0 +1,21 @@
+{
+  "titulo": "La Ultima Prueba",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "final_02.jpg",
+  "musica": "final.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Continuar"
+  ],
+  "direcciones": [
+"final_03"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "'Has pasado la prueba', dice la bruja ojos de gato, su voz más suave ahora, casi serena&Sigues la dirección de su mirada y ves el bote que estaba junto a la orilla
+'Este bote te llevará al otro lado', continúa&-'Pero recuerda, la verdadera magia no está en los hechizos que conjuras, sino en la calma que encuentras dentro de ti'."
+}

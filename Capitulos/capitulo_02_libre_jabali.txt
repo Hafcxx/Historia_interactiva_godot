@@ -1,0 +1,20 @@
+{
+  "titulo": "El Jabalí",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "jabali_libre.jpg",
+  "musica": "planicies.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Sigues tu camino"
+  ],
+  "direcciones": [
+"capitulo_02_mapache_01"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Logras liberarlo y el pequeño jabalí te da las gracias y te advierte&- más adelante podrías encontrarte con animales que no son tan confiables como parecen. ¡No te confíes, joven mago!-"
+}

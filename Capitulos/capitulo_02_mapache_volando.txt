@@ -1,0 +1,20 @@
+{
+  "titulo": "El Mapache",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "mapache_volando.jpg",
+  "musica": "bosque.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Continuar"
+  ],
+  "direcciones": [
+"capitulo_02_tres_caminos"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "El mapache sale volando, y choca con las ramas de un árbol ¡EN EL AIRE!"
+}

@@ -1,0 +1,22 @@
+{
+  "titulo": "La Ultima Prueba",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "rio_bruja.jpg",
+  "musica": "rio_final.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "- 'No sé como cruzar, el viento es demasiado fuerte y me podría tirar'",
+"- 'No me trates de engañar, yo creo que eres una bruja malvada'"
+  ],
+  "direcciones": [
+"capitulo_02_rio_espera_01",
+"capitulo_02_rio_bruja_responde"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Te mantienes observando el rio mientras el viento sopla agitado, de pronto aparece la bruja Ojos de Gato&. —¿Por qué no has cruzado aun? —te pregunta con una voz tranquila.-"
+}

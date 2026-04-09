@@ -1,0 +1,12 @@
+{
+"titulo":"Calientito",
+"vida":0,
+"objeto":"",
+"fondo":"estacion_feliz.jpg",
+"musica":"final_feliz.mp3",
+"personaje":"",
+"opciones":["Jugar de nuevo"],
+"direcciones":["capitulo01"],
+"condiciones":[""],
+"texto":"Vuelves a la estación, reportas que no había nada, estás calientito, no hay horrores de extraños mundos en tu mente, solo tecito, este es el fin de tu aventura."
+}

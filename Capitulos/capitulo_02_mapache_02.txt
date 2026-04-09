@@ -1,0 +1,24 @@
+{
+  "titulo": "El Mapache",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "mapache.jpg",
+  "musica": "mapache.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Espantar al mapache lanzando un hechizo de fuego",
+"Darle tus monedas de plata",
+"Decirle que no, porque parece un mapache sospechoso",
+"Salir corriendo como un gatito asustado"
+  ],
+  "direcciones": [
+"capitulo_02_mapache_fuego",
+"capitulo_02_mapache_plata",
+"capitulo_02_mapache_negado",
+"capitulo_02_mapache_escape"
+  ],
+  "condiciones": [
+    "true", "true", "true", "true"
+  ],
+  "texto": "Solo te quedan dos monedas de plata, que habías planeado usar para comprarte un helado en el pueblo al finalizar la prueba."
+}

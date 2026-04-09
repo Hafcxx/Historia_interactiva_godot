@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/incio.mp3-c37be09ac5d6312689e1c6c2e5e23cb4.mp3str"
+
+[deps]
+
+source_file="res://Sonido/incio.mp3"
+dest_files=[ "res://.import/incio.mp3-c37be09ac5d6312689e1c6c2e5e23cb4.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

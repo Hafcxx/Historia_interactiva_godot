@@ -1,0 +1,24 @@
+{
+  "titulo": "Las Planicies",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "hierva_enredadera.jpg",
+  "musica": "planicies.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Usas el Hechizo de Fuego para quemar pastos y arbustos",
+"Usas el Hechizo de Viento para empujar pastos y arbustos",
+"Usas el Hechizo Flotante para volar sobre pastos y arbustos"
+  ],
+  "direcciones": [
+    "capitulo_02_fuego",
+"capitulo_02_hechizo_correcto",
+"capitulo_02_hechizo_correcto"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Sigues avanzando por la hierba alta y, de repente, los arbustos y la hierba cobran vida&¡Se enredan alrededor de tus pies inmovilizándote!&Estás atrapado y necesitas escapar rápidamente!"
+}

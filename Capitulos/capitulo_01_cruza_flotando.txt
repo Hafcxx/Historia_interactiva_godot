@@ -1,0 +1,24 @@
+{
+  "titulo": "El rio",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "rio_cruza_flotando.jpg",
+  "musica": "rio.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Rápidamente uso un Hechizo de Viento para empujarme",
+"Rápidamente uso el Hechizo Flotante nuevamente.",
+"Rápidamente uso el Hechizo de Fuego."
+  ],
+  "direcciones": [
+    "capitulo_01_a_salvo",
+"capitulo_01_sin_energia",
+"capitulo_01_fuego"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Con tu habilidad, logras invocar el hechizo y empiezas a flotar sobre el río, pero pronto te cansas y empiezas a descender&Si no haces algo, caerás al río!"
+}

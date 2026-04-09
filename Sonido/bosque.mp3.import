@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/bosque.mp3-635e30c25e27b8d61a0bb69631e00f06.mp3str"
+
+[deps]
+
+source_file="res://Sonido/bosque.mp3"
+dest_files=[ "res://.import/bosque.mp3-635e30c25e27b8d61a0bb69631e00f06.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

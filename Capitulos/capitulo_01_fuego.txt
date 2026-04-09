@@ -1,0 +1,20 @@
+{
+  "titulo": "El rio",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "rio_cruza_fuego.jpg",
+  "musica": "rio.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Continuar"
+  ],
+  "direcciones": [
+"capitulo_01_sin_energia"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "En qué pensabas? En evaporar el río? Qué te llevó a elegir esta opción???"
+}

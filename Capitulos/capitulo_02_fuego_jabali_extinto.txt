@@ -1,0 +1,20 @@
+{
+  "titulo": "El Jabalí",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "jabali_incendio_extinto.jpg",
+  "musica": "planicies.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Sigues tu camino"
+  ],
+  "direcciones": [
+"capitulo_02_mapache_01"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Logras apagar el fuego exitosamente, es un alivio..."
+}

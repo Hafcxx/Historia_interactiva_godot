@@ -1,0 +1,22 @@
+{
+  "titulo": "La Ultima Prueba",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "rio_final_espera.jpg",
+  "musica": "rio_final.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Continuar"
+  ],
+  "direcciones": [
+"final"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "A medida que te sientas, y esperas, vez como el viento y el rio se calman poco a poco. 
+Se la voz de la bruja:
+'Este río está conectado con la mente de quienes lo cruzan&A veces, cuando vivimos cosas difíciles o emocionantes, nuestra mente se vuelve como una tormenta, y este río refleja eso&Es importante detenerse y respirar. Solo así podremos ver un río tranquilo y calmo&Aprender a pausar y respirar nos ayuda a superar situaciones que, muchas veces, no son tan complicadas como creemos.'"
+}

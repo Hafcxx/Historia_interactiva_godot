@@ -1,0 +1,20 @@
+{
+  "titulo": "El rio",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "rio_corrientes.jpg",
+  "musica": "rio.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Continuar"
+  ],
+  "direcciones": [
+    "capitulo_01_corrientes"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Decides nadar a través del río, confiando en tus habilidades. El agua es fría, pero logras avanzar sin problemas... al principio&De repente, algo se agita bajo tus pies."
+}

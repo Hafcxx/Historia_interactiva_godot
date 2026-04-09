@@ -1,0 +1,24 @@
+{
+  "titulo": "Tres Caminos",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "camino_centro.jpg",
+  "musica": "bosque.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Usar hechizo de tierra para mover la roca",
+"Usar un hechizo de fuego para hacer estallar la roca",
+"Llamar al viento para que te eleve sobre la roca, y tratar de cruzar del otro lado"
+  ],
+  "direcciones": [
+"capitulo_02_sin_camino",
+"capitulo_02_roca_sin_efecto",
+"capitulo_02_sin_camino"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Sigues avanzando y ves que el camino se divide en tres&A la izquierda, hay un sendero muy oscuro que se mete entre los arbustos; en el centro, otro camino parece bloqueado por una gran roca&y a la derecha, hay un sendero muy brillante por el bosque, donde puedes escuchar el sonido de un riachuelo."
+}

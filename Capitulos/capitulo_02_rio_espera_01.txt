@@ -1,0 +1,22 @@
+{
+  "titulo": "La Ultima Prueba",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "rio_final_espera.jpg",
+  "musica": "rio_final_espera.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "No esperas y subes a un viejo bote para tratar de cruzar",
+"Decides esperar"
+  ],
+  "direcciones": [
+"capitulo_02_sube_bote_viejo",
+"capitulo_02_rio_espera_02"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "'Hay momentos en los que no es el tiempo de avanzar. Ser un gran mago también es saber esperar&No te preocupes si algo parece difícil; la paciencia y la calma son muy importantes para solucionar problemas&Nunca sabes cuándo las cosas pueden mejorar.' - Y con esas palabras, la bruja desapareció."
+}

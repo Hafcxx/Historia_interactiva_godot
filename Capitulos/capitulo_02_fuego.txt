@@ -1,0 +1,22 @@
+{
+  "titulo": "Las Planicies",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "hierva_fuego_01.jpg",
+  "musica": "planicies_enredadera.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Sigo mi camino antes de que el fuego me alcance",
+"Apago el fuego rápidamente para que no se esparza"
+  ],
+  "direcciones": [
+    "incendio_01",
+"capitulo_02_incendio_extinguido"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Con habilidad lanzas el hechizo hacia las plantas que te atrapan y las quemas Otras se alejan de tu fuego con miedo. Estás libre! &Sin embargo, el fuego empieza a dispersarse entre la hierba alta y los arbustos& Sientes como el viento se detiene y toda la planicie pareciera observarte. Te quedas inquieto sabiendo que deberías hacer algo."
+}

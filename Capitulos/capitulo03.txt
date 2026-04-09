@@ -1,0 +1,22 @@
+{
+  "titulo": "Fuera de la mansión",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "mansion_porch.jpg",
+  "musica": "",
+  "personaje": "",
+  "opciones": [
+    "Continuar buscando dentro de la mansión",
+    "Volver a la estación por refuerzos"
+  ],
+  "direcciones": [
+    "capitulo04",
+    "capturadoEnAuto"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Observas la mansión desde el exterior, pero no encuentras nada. Sin embargo, el olor sigue perturbando tus recuerdos. No logras recordar claramente el extraño incidente, pero recuerdos de sangre y un fuerte olor a azufre comienzan a aflorar en tu mente. Sientes una incomodidad creciente; algo no está bien"
+}

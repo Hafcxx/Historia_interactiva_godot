@@ -1,0 +1,20 @@
+{
+  "titulo": "Las Planicies",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "planicies.jpg",
+  "musica": "planicies.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Continuar"
+  ],
+  "direcciones": [
+    "capitulo_02_la_hierva"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Frente a ti está la Planicie Encantada, la segunda prueba que enfrentarás y que debes atravesar para llegar al Bosque Encantado&Los arbustos y el viento parecen susurrar secretos&Recuerda que La Bruja Ojos de Gato te está esperando y solo los más valientes llegan hasta ella."
+}

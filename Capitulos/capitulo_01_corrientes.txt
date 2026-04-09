@@ -1,0 +1,24 @@
+{
+  "titulo": "El rio",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "rio_corrientes.jpg",
+  "musica": "corrientes.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Sigo nadando más rápido  hacia la orilla",
+    "Me dejo llevar por la corriente, a ver a dónde me lleva.",
+    "Rápidamente uso el Hechizo de Viento para empujarme",
+  ],
+  "direcciones": [
+    "capitulo_01_corrientes_lucha",
+"casa_mojado",
+"capitulo_01_a_salvo"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Unas corrientes fuertes comienzan a arrastrarte hacia el fondo&¡No es un río normal! El agua parece tener vida propia, y te cuesta mantenerte a flote."
+}

@@ -1,0 +1,20 @@
+{
+  "titulo": "La Ultima Prueba",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "final_01.jpg",
+  "musica": "final.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Continuar"
+  ],
+  "direcciones": [
+"final_02"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Cierras los ojos y respiras profundamente. Poco a poco, sientes cómo tu mente se calma, igual que el río frente a ti&Cuando los abres de nuevo, el agua ya no es un torbellino caótico&ahora es un espejo tranquilo que refleja los arboles y el cielo."
+}

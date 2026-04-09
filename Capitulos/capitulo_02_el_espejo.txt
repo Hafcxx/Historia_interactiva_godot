@@ -1,0 +1,20 @@
+{
+  "titulo": "Tres Caminos",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "el_espejo.jpg",
+  "musica": "tres_caminos.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Continuar"
+  ],
+  "direcciones": [
+"casa_inconsciente_01"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Antes de que puedas reaccionar, el espejo te atrapa en su superficie&Una voz suave pero burlona resuena:- Elegiste lo que parecía mas sencillo, pero las grandes lecciones no vienen de la comodidad Vuelve al inicio y aprende a enfrentar los desafíos.-&Con un destello del espejo, caes inconsciente."
+}

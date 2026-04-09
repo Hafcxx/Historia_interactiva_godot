@@ -1,0 +1,22 @@
+{
+  "titulo": "Tres Caminos",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "mapache_fuego_extinto.jpg",
+  "musica": "bosque.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "El sendero brillante",
+"El camino del centro,
+"El camino oscuro"
+  ],
+  "direcciones": [
+"capitulo_02_tres_caminos"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Sigues avanzando y ves que el camino se divide en tres&A la izquierda, hay un sendero muy oscuro que se mete entre los arbustos; en el centro, otro camino parece bloqueado por una gran roca&y a la derecha, hay un sendero muy brillante por el bosque, donde puedes escuchar el sonido de un riachuelo."
+}

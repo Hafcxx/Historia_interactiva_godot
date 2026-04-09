@@ -1,0 +1,24 @@
+{
+  "titulo": "El Mapache",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "mapache_negado.jpg",
+  "musica": "bosque.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Espantas al mapache lanzando un hechizo de fuego",
+"Darle tus monedas de plata",
+"Mandas al mapache a volar lanzando un hechizo de viento"
+  ],
+  "direcciones": [
+"capitulo_02_mapache_bola_fuego",
+"capitulo_02_mapache_engaña",
+"capitulo_02_mapache_volando"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Le dices que no, pero el mapache se abalanza sobre ti, y trata de quitarte tus monedas de plata."
+}

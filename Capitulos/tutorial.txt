@@ -1,0 +1,20 @@
+{
+  "titulo": "Tutorial",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "tutorial.jpg",
+  "musica": "inicio.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Continuar"
+  ],
+  "direcciones": [
+    "tutorial_02"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Para jugar, debes presionar el botón azul con el que podrás avanzar en cada párrafo"
+}

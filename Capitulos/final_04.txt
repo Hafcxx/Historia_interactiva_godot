@@ -1,0 +1,21 @@
+{
+  "titulo": "La Ultima Prueba",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "final_04.jpg",
+  "musica": "final.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Continuar"
+  ],
+  "direcciones": [
+"end"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "
+Allí, al girarte, ves a la bruja observándote desde lejos. Sus ojos brillan con un destello que ya no te asusta&La escuchas, aunque no estás seguro de cómo llegan sus palabras: 'Adiós, pequeño mago. Sé sabio y nunca olvides detenerte a respirar'&Cuando pones un pie en tierra firme, el bote desaparece, y al volverte, el bosque y la bruja también se han desvanecido& Por un instante, dudas si todo fue real, pero dentro de ti sabes que algo ha cambiado&Ahora llevas contigo una calma que no conocías, una fuerza que te hará invencible frente a cualquier desafío&Has superado la prueba del aprendiz de Mago, Felicidades! "
+}

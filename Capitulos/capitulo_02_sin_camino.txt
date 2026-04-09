@@ -1,0 +1,22 @@
+{
+  "titulo": "Tres Caminos",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "camino_centro_2.jpg",
+  "musica": "tres_caminos.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "El sendero brillante",
+"El camino oscuro"
+  ],
+  "direcciones": [
+"capitulo_02_camino_brillante",
+"capitulo_02_camino_oscuro"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "No había ningún camino detrás de la roca, todo era mentira, debes elegir un nuevo camino"
+}

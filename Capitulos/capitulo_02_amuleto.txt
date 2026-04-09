@@ -1,0 +1,20 @@
+{
+  "titulo": "Las Planicies",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "hierva_amuleto.jpg",
+  "musica": "planicies.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Continuar"
+  ],
+  "direcciones": [
+    "capitulo_02_a_salvo"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Ya preparado con tu amuleto de tortuga en la mano, sigues caminando sigiloso y cauteloso, confiando en que la suerte estará de tu lado&De repente, un dardo venenoso vuela hacia ti desde la hierba alta&¡Por suerte, tu amuleto de tortuga bloquea el ataque, recibiendo el dardo! Tu amuleto junto con el dardo caen al suelo."
+}

@@ -1,0 +1,22 @@
+{
+  "titulo": "La Ultima Prueba",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "bruja_responde_final.jpg",
+  "musica": "rio_final.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Decides escuchar a la bruja ojos de gato",
+"Le lanzas una bola de fuego para que no te moleste mas"
+  ],
+  "direcciones": [
+"capitulo_02_rio_espera_01",
+"capitulo_02_rio_bruja_ataque"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "La bruja responde:- Primero debes escuchar joven mago y después juzgar, tal vez mi ayuda te pueda servir de algo -"
+}

@@ -1,0 +1,20 @@
+{
+  "titulo": "Las Planicies",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "hierva_envenenado.jpg",
+  "musica": "planicies.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Continuar"
+  ],
+  "direcciones": [
+    "aldea"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Sigues caminando. Sigiloso y cauteloso. Estás listo para cualquier cosa&De pronto, sientes un pinchazo en tu brazo. ¡Es un dardo! Antes de que puedas hacer algo, te invade un fuerte sueño&Tus ojos se cierran poco a poco, y caes al suelo, dormido profundamente."
+}

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/progress.mp3-cb624e2cbcad8db35efffaad3bca1094.mp3str"
+
+[deps]
+
+source_file="res://Sonido/progress.mp3"
+dest_files=[ "res://.import/progress.mp3-cb624e2cbcad8db35efffaad3bca1094.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

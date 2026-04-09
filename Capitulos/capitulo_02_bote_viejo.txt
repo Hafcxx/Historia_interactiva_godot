@@ -1,0 +1,22 @@
+{
+  "titulo": "La Ultima Prueba",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "bote_viejo.jpg",
+  "musica": "rio_final.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Subes al bote inseguro",
+"Utilizas un hechizo de viento para elevarte y cruzar"
+  ],
+  "direcciones": [
+"capitulo_02_sube_bote_viejo",
+"capitulo_02_rio_viento"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Observas un bote viejo, parece que se va a desarmar por si solo"
+}

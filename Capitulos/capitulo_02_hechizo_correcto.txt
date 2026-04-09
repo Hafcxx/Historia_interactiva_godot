@@ -1,0 +1,22 @@
+{
+  "titulo": "Las Planicies",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "hierva_enredadera_nuevamente.jpg",
+  "musica": "planicies_enredadera.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Usas el Hechizo de Fuego para quemar pastos y arbustos",
+"Tratas de cortar la hierva cuidadosamente"
+  ],
+  "direcciones": [
+    "capitulo_02_fuego",
+"capitulo_02_cortando"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Pronuncias rápidamente el hechizo, esperando escapar&Sin embargo, no tiene suficiente fuerza para liberarte y las raíces se enredan aún más fuerte alrededor de tus pies y piernas&Ahora estás atrapado más que antes. La hierba parece tensarse, como si la Planicie Encantada no quisiera dejarte ir tan fácil."
+}

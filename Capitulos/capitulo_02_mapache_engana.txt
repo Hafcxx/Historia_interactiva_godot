@@ -1,0 +1,20 @@
+{
+  "titulo": "El Mapache",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "mapache_engana.jpg",
+  "musica": "bosque.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Continuar"
+  ],
+  "direcciones": [
+"capitulo_02_tres_caminos"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "El mapache toma las monedas y sale corriendo, mientras su risa se escucha a lo lejos&Entre risitas, exclama: —¡Muchas gracias, je je je!- Has sido engañado"
+}

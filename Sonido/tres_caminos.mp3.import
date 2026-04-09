@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/tres_caminos.mp3-24c3cc920f676427104f047166d0b817.mp3str"
+
+[deps]
+
+source_file="res://Sonido/tres_caminos.mp3"
+dest_files=[ "res://.import/tres_caminos.mp3-24c3cc920f676427104f047166d0b817.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

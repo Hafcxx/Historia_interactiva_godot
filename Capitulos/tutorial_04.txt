@@ -1,0 +1,20 @@
+{
+  "titulo": "Inicia la Aventura",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "correcto.jpg",
+  "musica": "inicio.mp3",
+  "personaje": "Mago",
+  "opciones": [
+"Continuar"
+  ],
+  "direcciones": [
+    "inicio_01",
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Ya lo entendiste. Comienza la aventura!"
+}

@@ -1,0 +1,77 @@
+fondos:
+inicio XX --
+rio XX  --
+rio_a_salvo XX 			
+rio_cruza_flotando XX--
+rio_no_hay_nada XX --
+rio_corrientes XX --
+rio_corrientes_lucha XX --
+casa_mojado XX --
+casa_tranquilo XX  --
+casa_estudiando XX		
+planicies XX --
+hierva xX --
+hierva_envenenado XX --
+hierva_amuleto XX --
+hierva_a_salvo XX --
+hierva_enredadera XX  --
+hierva_enredadera_nuevamente XX  --
+hierva_cortando XX --
+hierva_fuego_01 XX --
+hierva_fuego_extinguido XX --
+incendio_01 XX --
+incendio_02 XX --
+incendio_03 XX --
+la_planta XX --
+planta_regada XX --
+el_jabali XX  --
+jabali_incendio XX  --
+jabali_incendio_extinto XX --
+jabali_viento XX --
+jabali_libre XX --
+mapache XX --
+mapache_fuego XX --
+mapache_fuego_extinto XX --
+mapache_negado XX --
+mapache_plata XX --
+mapache_bola_fuego XX --
+mapache_engana XX --
+mapache_volando XX --
+gatito_corriendo XX  --
+tres_caminos XX  --
+camino_brillante XX --
+camino_centro XX --
+camino_centro_2 XX --
+camino_oscuro XX --
+el_espejo XX --
+despiertas_en_casa XX
+rio_final XX --
+bote_viejo XX
+rio_bruja XX -- 
+bote_viejo_sube XX --
+rio_final_viento XX --
+rio_final_espera XX --
+bruja_responde_final XX
+rio_final_espera_02 XX
+rio_bruja_ataque XX
+final_01 XX
+final_02 XX
+final_03 XX
+rio_cruza_fuego XX 
+
+canciones:
+inicio - 
+casa - 
+rio - 
+corrientes - 
+planicies - 
+planicies_enredadera -
+incendio -
+la_planta
+mapache
+bosque
+tres_caminos
+rio_final
+rio_final_espera
+rio_final_ataque
+final

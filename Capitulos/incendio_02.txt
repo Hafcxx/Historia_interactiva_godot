@@ -1,0 +1,20 @@
+{
+  "titulo": "Las Planicies",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "incendio_02.jpg",
+  "musica": "incendio.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Continuar"
+  ],
+  "direcciones": [
+    "incendio_03"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "De repente, aparece la bruja Ojos de Gato, envuelta en una niebla oscura. Con un movimiento de su mano, apaga el fuego al instante, y las llamas se apagan como si nunca hubieran existido&Te mira con ojos serios y dice: —'Eres muy irresponsable, el fuego no es un juego. Podrías haber dañado este bosque y a todos sus habitantes&Debes aprender a respetar la magia y la naturaleza&Con una mirada intensa, la bruja te advierte: —'La magia puede ser poderosa, pero también peligrosa. Recuerda, siempre debes ser responsable'-"
+}

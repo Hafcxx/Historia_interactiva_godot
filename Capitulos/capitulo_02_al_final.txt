@@ -1,0 +1,24 @@
+{
+  "titulo": "La Ultima Prueba",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "rio_final.jpg",
+  "musica": "rio_final.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Buscar algún objeto con que cruzar",
+"Tomas un descanso para pensar, no sabes que hacer",
+"Utilizas un hechizo de viento para elevarte y cruzar"
+  ],
+  "direcciones": [
+"capitulo_02_bote_viejo",
+"capitulo_02_rio_bruja",
+"capitulo_02_rio_viento"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Al llegar al final de tu camino, te encuentras de nuevo con el río&Esta vez necesitas cruzarlo para salir del bosque encantado, pero la corriente es muy fuerte, y el viento sopla en tu contra tan fuerte que parece que te va a derribar."
+}

@@ -1,0 +1,20 @@
+{
+  "titulo": "El Mapache",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "mapache.jpg",
+  "musica": "mapache.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Continuar"
+  ],
+  "direcciones": [
+"capitulo_02_mapache_02"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Al continuar tu camino, te encuentras con un mapache sospechoso. Se te acerca y dice:&—Joven mago, conozco un atajo que te llevará más rápido a la meta.&Solo tienes que entregarme todas tus pertenencias de valor, y te diré cómo puedes completar la prueba en menos tiempo.-"
+}

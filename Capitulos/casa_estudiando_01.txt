@@ -1,0 +1,20 @@
+{
+  "titulo": "En Casa",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "casa_estudiando.jpg",
+  "musica": "casa.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Volver a intentar"
+  ],
+  "direcciones": [
+    "inicio_02"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Vuelves a tu casa a seguir estudiando tus hechizos. No es malo estar inseguro, solo debes buscar tu confianza."
+}

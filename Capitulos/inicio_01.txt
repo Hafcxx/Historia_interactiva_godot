@@ -1,0 +1,20 @@
+{
+  "titulo": "Inicia la Aventura",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "inicio.jpg",
+  "musica": "inicio.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Continuar"
+  ],
+  "direcciones": [
+    "inicio_02"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Eres el joven mago más prometedor de tu aldea, te acercas a tu última prueba para obtener el grado de Mago de oficio."
+}

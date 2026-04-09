@@ -1,0 +1,20 @@
+{
+  "titulo": "Las Planicies",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "hierva_cortando.jpg",
+  "musica": "planicies.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Continuar"
+  ],
+  "direcciones": [
+    "capitulo_02_la_planta"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Guardas la calma y usas tus tijeras de mago para cortar la hierva, muy bien, joven mago. La paciencia y la astucia son la magia más poderosa&Logras liberarte de la hiedra y continuar tu camino."
+}

@@ -1,0 +1,20 @@
+{
+  "titulo": "Incendio",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "incendio_01.jpg",
+  "musica": "incendio.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Continuar"
+  ],
+  "direcciones": [
+    "incendio_02"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "El fuego que iniciaste crece rápidamente. Antes de que te des cuenta, las llamas se extienden y rodean el camino&El calor te atrapa, y el humo comienza a llenar el aire, todo parece cerrarse a tu alrededor, dejándote sin salida."
+}

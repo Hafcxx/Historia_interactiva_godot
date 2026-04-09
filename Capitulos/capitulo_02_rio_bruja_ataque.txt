@@ -1,0 +1,20 @@
+{
+  "titulo": "La Ultima Prueba",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "rio_bruja_ataque.jpg",
+  "musica": "rio_final_ataque.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Continuar"
+  ],
+  "direcciones": [
+"casa_inconsciente_01"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "La bruja esquiva tu ataque sin esfuerzo y dice con calma&- 'No te he hecho daño ni te he amenazado. Tu violencia no tiene justificación, y no la permitiré.' Con un simple movimiento de su mano, lanza un hechizo&Antes de que puedas reaccionar, caes al suelo y todo se vuelve oscuro."
+}

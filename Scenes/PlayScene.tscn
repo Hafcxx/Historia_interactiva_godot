@@ -1,0 +1,711 @@
+[gd_scene load_steps=34 format=2]
+
+[ext_resource path="res://Scripts/PlayScript.cs" type="Script" id=1]
+[ext_resource path="res://Fuentes/Titulo1.tres" type="DynamicFont" id=2]
+[ext_resource path="res://Sonido/mansion.mp3" type="AudioStream" id=3]
+[ext_resource path="res://Fuentes/p1.tres" type="DynamicFont" id=4]
+[ext_resource path="res://Estilos/Arrow_pressed.tres" type="StyleBox" id=5]
+[ext_resource path="res://Images/marco_bottom.png" type="Texture" id=6]
+[ext_resource path="res://Estilos/base_ok_button.tres" type="StyleBox" id=7]
+[ext_resource path="res://Estilos/Arrow.tres" type="StyleBox" id=8]
+[ext_resource path="res://Images/marco_left.png" type="Texture" id=9]
+[ext_resource path="res://Images/marco_top.png" type="Texture" id=10]
+[ext_resource path="res://Iconos/glow.png" type="Texture" id=11]
+[ext_resource path="res://Fuentes/Philosopher-Bold.ttf" type="DynamicFontData" id=12]
+[ext_resource path="res://Images/music-on.png" type="Texture" id=13]
+
+[sub_resource type="StreamTexture" id=14]
+flags = 4
+load_path = "res://.import/tutorial.png-e4953061e47dc43e0d6430ea4dd9e52c.stex"
+
+[sub_resource type="StyleBoxFlat" id=5]
+bg_color = Color( 0.843137, 0.835294, 0.686275, 1 )
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color( 0.533333, 0.470588, 0.0196078, 1 )
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+shadow_size = 20
+
+[sub_resource type="Theme" id=13]
+
+[sub_resource type="DynamicFontData" id=18]
+font_path = "res://Fuentes/Leorio.ttf"
+
+[sub_resource type="DynamicFont" id=11]
+size = 55
+outline_size = 1
+outline_color = Color( 0.376471, 0.376471, 0.368627, 1 )
+font_data = SubResource( 18 )
+
+[sub_resource type="StreamTexture" id=16]
+flags = 4
+load_path = "res://.import/arrow_green_left.png-8bc5cb800e3df24758b7cbfff04ba529.stex"
+
+[sub_resource type="StreamTexture" id=15]
+flags = 4
+load_path = "res://.import/arrow_green.png-94346ad2d6a3afa7b3567a57c38cd779.stex"
+
+[sub_resource type="Animation" id=1]
+resource_name = "CargandoTextoPrincipal"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("CuadroTexto:rect_size")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1.4 ),
+"transitions": PoolRealArray( 1, 9.84915 ),
+"update": 0,
+"values": [ Vector2( 875, 12 ), Vector2( 875, 400 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("CuadroTexto:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1.6 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 1 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Button:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 2 ),
+"transitions": PoolRealArray( 10.5561, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 1 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Button:rect_size")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.3, 0.8 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 30, 34 ), Vector2( 935, 34 ), Vector2( 935, 370 ) ]
+}
+
+[sub_resource type="Animation" id=2]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("CuadroTexto:rect_size")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 875, 12 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("CuadroTexto:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Button:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Button:rect_size")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 935, 34 ) ]
+}
+
+[sub_resource type="Animation" id=19]
+resource_name = "Botones"
+
+[sub_resource type="Animation" id=20]
+resource_name = "BotonesIn"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("BotonIzquierda:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.4 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("BotonDerecha:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.4 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=21]
+resource_name = "BotonesOut"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("BotonIzquierda:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("BotonDerecha:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=6]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("Glow:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 113, 1570 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Glow:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0.2, 0.2 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Glow:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ false ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("BotonIzquierda:rect_scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1.3, 1.3 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Glow:modulate")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0.419608 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("BotonDerecha:rect_scale")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1.3, 1.3 ) ]
+}
+
+[sub_resource type="Animation" id=7]
+resource_name = "boton_derecho"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("Glow:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.2, 0.3, 0.5 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 993, 1576 ), Vector2( 969, 1576 ), Vector2( 112, 1566 ), Vector2( -529, 1556 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Glow:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.2, 0.2 ), Vector2( 3, 3 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Glow:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Glow:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0.419608 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("BotonDerecha:rect_scale")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1.3, 1.3 ), Vector2( 1.6, 1.6 ), Vector2( 1.3, 1.3 ) ]
+}
+
+[sub_resource type="Animation" id=8]
+resource_name = "boton_izquierdo"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("Glow:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.2, 0.3, 0.5 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 113, 1570 ), Vector2( 123, 1576 ), Vector2( 112, 1566 ), Vector2( -529, 1556 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Glow:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.2, 0.2 ), Vector2( 3, 3 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Glow:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("BotonIzquierda:rect_scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1.3, 1.3 ), Vector2( 1.6, 1.6 ), Vector2( 1.3, 1.3 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Glow:modulate")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0.419608 ) ]
+}
+
+[sub_resource type="Theme" id=4]
+
+[sub_resource type="DynamicFont" id=9]
+size = 50
+outline_size = 2
+outline_color = Color( 0.182617, 0.182404, 0.176197, 1 )
+font_data = ExtResource( 12 )
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.705882, 0.85098, 0.752941, 1 )
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color( 0.117647, 0.635294, 0.223529, 1 )
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StreamTexture" id=17]
+flags = 4
+load_path = "res://.import/flecha_png.png-38f099beeb6304cb6fca005e0c8e882e.stex"
+
+[sub_resource type="DynamicFont" id=10]
+size = 50
+outline_size = 3
+outline_color = Color( 0.182617, 0.182404, 0.176197, 1 )
+font_data = ExtResource( 12 )
+
+[node name="Control" type="Control"]
+self_modulate = Color( 0, 0, 0, 1 )
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Fondo" type="Sprite" parent="."]
+position = Vector2( 560, 945 )
+scale = Vector2( 1.73926, 1.63867 )
+texture = SubResource( 14 )
+
+[node name="Button" type="Button" parent="."]
+modulate = Color( 1, 1, 1, 0 )
+margin_left = 71.0
+margin_top = 509.0
+margin_right = 1006.0
+margin_bottom = 543.0
+custom_styles/normal = SubResource( 5 )
+
+[node name="ColorRect3" type="ColorRect" parent="Button"]
+modulate = Color( 0.203922, 0.2, 0.145098, 0.584314 )
+margin_left = 40.0
+margin_top = 283.0
+margin_right = 890.0
+margin_bottom = 287.0
+theme = SubResource( 13 )
+
+[node name="ColorRect4" type="ColorRect" parent="Button"]
+modulate = Color( 0.203922, 0.2, 0.145098, 0.584314 )
+margin_left = 40.0
+margin_top = 228.0
+margin_right = 890.0
+margin_bottom = 232.0
+theme = SubResource( 13 )
+
+[node name="ColorRect2" type="ColorRect" parent="Button"]
+modulate = Color( 0.203922, 0.2, 0.145098, 0.584314 )
+margin_left = 40.0
+margin_top = 173.0
+margin_right = 890.0
+margin_bottom = 177.0
+theme = SubResource( 13 )
+
+[node name="ColorRect" type="ColorRect" parent="Button"]
+modulate = Color( 0.203922, 0.2, 0.145098, 0.584314 )
+margin_left = 40.0
+margin_top = 118.0
+margin_right = 890.0
+margin_bottom = 122.0
+theme = SubResource( 13 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_left = 219.0
+margin_top = 1528.0
+margin_right = 864.0
+margin_bottom = 1873.0
+custom_fonts/normal_font = ExtResource( 4 )
+bbcode_enabled = true
+bbcode_text = "[center]Continuar[/center]"
+text = "Continuar"
+
+[node name="CuadroTexto" type="RichTextLabel" parent="."]
+modulate = Color( 1, 1, 1, 0 )
+margin_left = 116.0
+margin_top = 579.0
+margin_right = 991.0
+margin_bottom = 854.0
+rect_pivot_offset = Vector2( 374, 0 )
+custom_fonts/normal_font = SubResource( 11 )
+tab_size = 1
+text = "Esta es una historía interactiva en la que las decisiones del usuario deciden el curso de la historia. Presiona el boton azul "
+fit_content_height = true
+scroll_following = true
+
+[node name="Titulo" type="Label" parent="."]
+margin_left = 55.0
+margin_top = 182.0
+margin_right = 1027.0
+margin_bottom = 345.0
+rect_scale = Vector2( 1.002, 1 )
+custom_fonts/font = ExtResource( 2 )
+text = "Inicio"
+align = 1
+
+[node name="BotonIzquierda" type="Button" parent="."]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = 34.0
+margin_top = 1515.0
+margin_right = 234.0
+margin_bottom = 1640.0
+rect_scale = Vector2( 1.3, 1.3 )
+rect_pivot_offset = Vector2( 80.6923, 48.6154 )
+focus_mode = 0
+custom_constants/hseparation = 0
+custom_styles/hover = ExtResource( 5 )
+custom_styles/pressed = ExtResource( 5 )
+custom_styles/normal = ExtResource( 8 )
+enabled_focus_mode = 0
+icon = SubResource( 16 )
+icon_align = 1
+
+[node name="BotonDerecha" type="Button" parent="."]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = 837.0
+margin_top = 1515.0
+margin_right = 1037.0
+margin_bottom = 1615.0
+rect_scale = Vector2( 1.3, 1.3 )
+rect_pivot_offset = Vector2( 106.923, 49.2307 )
+custom_styles/hover = ExtResource( 8 )
+custom_styles/pressed = ExtResource( 8 )
+custom_styles/focus = ExtResource( 8 )
+custom_styles/disabled = ExtResource( 8 )
+custom_styles/normal = ExtResource( 8 )
+icon = SubResource( 15 )
+icon_align = 1
+
+[node name="BaseAudio" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+volume_db = -7.832
+autoplay = true
+
+[node name="AnimadorTexto" type="AnimationPlayer" parent="."]
+anims/CargandoTextoPrincipal = SubResource( 1 )
+anims/RESET = SubResource( 2 )
+
+[node name="AnimadorBotones" type="AnimationPlayer" parent="."]
+anims/Botones = SubResource( 19 )
+anims/BotonesIn = SubResource( 20 )
+anims/BotonesOut = SubResource( 21 )
+anims/RESET = SubResource( 6 )
+anims/boton_derecho = SubResource( 7 )
+anims/boton_izquierdo = SubResource( 8 )
+
+[node name="Glow" type="Sprite" parent="."]
+visible = false
+modulate = Color( 1, 1, 1, 0.419608 )
+position = Vector2( 113, 1570 )
+scale = Vector2( 0.2, 0.2 )
+texture = ExtResource( 11 )
+normal_map = ExtResource( 11 )
+
+[node name="marcoTop" type="Sprite" parent="."]
+position = Vector2( 570, -496 )
+rotation = -1.5708
+scale = Vector2( 2, 2 )
+texture = ExtResource( 10 )
+offset = Vector2( -18, -6 )
+
+[node name="marcoBottom" type="Sprite" parent="."]
+position = Vector2( 510, 2310 )
+rotation = -1.5708
+scale = Vector2( 2, 2 )
+texture = ExtResource( 6 )
+offset = Vector2( -25, 22 )
+
+[node name="marcoLeft2" type="Sprite" parent="."]
+position = Vector2( -734, 608 )
+rotation = 1.5708
+scale = Vector2( 1.87, 1.9 )
+texture = ExtResource( 9 )
+offset = Vector2( 191.302, 0 )
+
+[node name="marcoLeft" type="Sprite" parent="."]
+position = Vector2( 1858, 1306.37 )
+rotation = -1.5708
+scale = Vector2( 1.86, 1.9 )
+texture = ExtResource( 9 )
+offset = Vector2( 191.302, 0 )
+
+[node name="BotonVolver" type="Button" parent="."]
+visible = false
+margin_left = 764.0
+margin_top = 1767.0
+margin_right = 874.0
+margin_bottom = 1877.0
+theme = SubResource( 4 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+custom_colors/font_color_focus = Color( 0.87451, 0.827451, 0.686275, 1 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_hover = Color( 0.0431373, 0.270588, 0.0941176, 1 )
+custom_colors/font_color_pressed = Color( 0.0431373, 0.270588, 0.0941176, 1 )
+custom_fonts/font = SubResource( 9 )
+custom_styles/hover = ExtResource( 7 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/normal = ExtResource( 7 )
+action_mode = 0
+__meta__ = {
+"_editor_description_": "
+"
+}
+
+[node name="FlechaPng" type="Sprite" parent="BotonVolver"]
+position = Vector2( 55, 54 )
+rotation = -3.14159
+scale = Vector2( 0.215, 0.225 )
+texture = SubResource( 17 )
+
+[node name="BotonOpcion" type="Button" parent="."]
+margin_left = 906.0
+margin_top = 1767.0
+margin_right = 1016.0
+margin_bottom = 1877.0
+rect_pivot_offset = Vector2( 55, 88 )
+theme = SubResource( 4 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+custom_colors/font_color_focus = Color( 0.87451, 0.827451, 0.686275, 1 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_hover = Color( 0.0431373, 0.270588, 0.0941176, 1 )
+custom_colors/font_color_pressed = Color( 0.0431373, 0.270588, 0.0941176, 1 )
+custom_fonts/font = SubResource( 10 )
+custom_styles/hover = ExtResource( 7 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/normal = ExtResource( 7 )
+action_mode = 0
+__meta__ = {
+"_editor_description_": "
+"
+}
+
+[node name="FlechaPng" type="Sprite" parent="BotonOpcion"]
+position = Vector2( 55, 54 )
+scale = Vector2( 0.215, 0.225 )
+texture = SubResource( 17 )
+
+[node name="BotonMusica" type="Button" parent="."]
+margin_left = 935.0
+margin_top = 46.0
+margin_right = 1045.0
+margin_bottom = 156.0
+rect_pivot_offset = Vector2( 55, 88 )
+theme = SubResource( 4 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+custom_colors/font_color_focus = Color( 0.87451, 0.827451, 0.686275, 1 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_hover = Color( 0.0431373, 0.270588, 0.0941176, 1 )
+custom_colors/font_color_pressed = Color( 0.0431373, 0.270588, 0.0941176, 1 )
+custom_fonts/font = SubResource( 10 )
+custom_styles/hover = ExtResource( 7 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/normal = ExtResource( 7 )
+action_mode = 0
+__meta__ = {
+"_editor_description_": "
+"
+}
+
+[node name="MusicPng" type="Sprite" parent="BotonMusica"]
+position = Vector2( 57, 54 )
+scale = Vector2( 0.140964, 0.115312 )
+texture = ExtResource( 13 )
+
+[node name="ButtonMusicPLayer" type="AudioStreamPlayer" parent="."]
+
+[connection signal="button_down" from="BotonIzquierda" to="." method="_on_BotonIzquierda_button_down"]
+[connection signal="button_down" from="BotonDerecha" to="." method="_on_BotonDerecha_button_down"]
+[connection signal="pressed" from="BotonVolver" to="." method="_on_BotonVolver_pressed"]
+[connection signal="pressed" from="BotonOpcion" to="." method="_on_BotonOpcion_pressed"]
+[connection signal="pressed" from="BotonMusica" to="." method="_on_BotonMusica_pressed"]

@@ -1,0 +1,24 @@
+{
+  "titulo": "¿Aceptas la misión?",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "inicio.jpg",
+  "musica": "inicio.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Prefiero irme a mi casa, me puede pasar algo malo",
+"Acepto el desafío",
+"No estoy seguro de estar preparado para este desafío"
+  ],
+  "direcciones": [
+    "casa_tranquilo_01",
+"capitulo_01_rio",
+"casa_estudiando_01"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "La prueba consiste en superar el bosque encantado de la bruja ojos de gato. ¿Te atreves a intentar esta difícil prueba?."
+}

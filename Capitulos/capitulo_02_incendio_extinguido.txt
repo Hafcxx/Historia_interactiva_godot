@@ -1,0 +1,20 @@
+{
+  "titulo": "Las Planicies",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "hierva_fuego_extinguido.jpg",
+  "musica": "planicies.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Continuar	"
+  ],
+  "direcciones": [
+    "capitulo_02_la_planta"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Después de apagar el fuego, aparece una mariposa muy hermosa que vuela a tu alrededor&Tiene alas de muchos colores que brillan con la luz del bosque&La mariposa se posa suavemente en una rama y te habla con una voz dulce&— Gracias por apagar el fuego, pequeño mago —dice la mariposa —&Este bosque es nuestro hogar y está lleno de vida&Los árboles, las flores y los animalitos necesitan calma para vivir felices&Si el fuego hubiera crecido, muchos amigos del bosque se habrían quedado sin casa&La mariposa revolotea cerca de ti y sonríe&—El bosque es delicado, pero juntos podemos cuidarlo—&Luego, con un suave aleteo, la mariposa vuela alto entre los árboles y desaparece."
+}

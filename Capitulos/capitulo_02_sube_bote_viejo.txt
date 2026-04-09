@@ -1,0 +1,20 @@
+{
+  "titulo": "La Ultima Prueba",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "bote_viejo_sube.jpg",
+  "musica": "rio_final.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Continuar"
+  ],
+  "direcciones": [
+"casa_inconsciente_01"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Te subes a un bote que no se siente seguro y pronuncias un hechizo para que comienza a moverse&De pronto, la corriente es muy fuerte y el bote empieza a moverse rápido. No puedes levantarte ni decir ningún hechizo&Te caes, te golpeas la cabeza y quedas dormido hasta que llegas a tu próxima parada."
+}

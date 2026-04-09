@@ -1,0 +1,22 @@
+{
+  "titulo": "El Jabalí",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "jabali_incendio.jpg",
+  "musica": "incendio_01.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Te apresuras a continuar antes de que algo peor suceda",
+"Apagas rápidamente el fuego con un hechizo de lluvia"
+  ],
+  "direcciones": [
+"incendio_01",
+"capitulo_02_fuego_jabali_extinto"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Usas el hechizo de fuego, y las enredaderas comienzan a arder rápidamente&Sin embargo, el fuego se extiende más allá, encendiendo el suelo del bosque.&El pequeño jabalí huye asustado, y ahora te das cuenta de tu error, no debiste usar fuego en el bosque encantado."
+}

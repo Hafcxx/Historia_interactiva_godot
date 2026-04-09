@@ -1,0 +1,22 @@
+{
+  "titulo": "Las Planta",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "la_planta.jpg",
+  "musica": "la_planta.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Usas un hechizo de lluvia para darle agua a la planta",
+"Sigues tu camino, buscando otro desafío"
+  ],
+  "direcciones": [
+    "capitulo_02_planta_regada",
+"capitulo_02_jabali"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Mientras sigues avanzando por el bosque, llegas a un claro un poco yermo&En el centro, una planta muy seca, casi marchita, te llama con una voz débil. —Por favor... necesito agua — Te dice con suavidad&sus hojas quebradizas se ven temblando bajo la luz del sol, el bosque entero parece pedir ayuda"
+}

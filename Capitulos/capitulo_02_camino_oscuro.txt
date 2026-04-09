@@ -1,0 +1,20 @@
+{
+  "titulo": "Tres Caminos",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "camino_oscuro.jpg",
+  "musica": "tres_caminos.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Continuar"
+  ],
+  "direcciones": [
+"capitulo_02_al_final"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Logras cruzar sin problemas, parece que este era el camino correcto."
+}

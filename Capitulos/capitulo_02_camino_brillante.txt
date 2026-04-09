@@ -1,0 +1,20 @@
+{
+  "titulo": "Tres Caminos",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "camino_brillante.jpg",
+  "musica": "tres_caminos.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Continuar"
+  ],
+  "direcciones": [
+"capitulo_02_el_espejo"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Mientras avanzas, el camino se vuelve cada vez más brillante, tanto que tus ojos empiezan a doler&De repente, te das cuenta de que la luz proviene de un enorme espejo mágico&El espejo lo refleja, pero algo está mal... su reflejo comienza a moverse por su cuenta."
+}

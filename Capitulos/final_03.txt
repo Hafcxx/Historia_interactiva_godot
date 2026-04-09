@@ -1,0 +1,20 @@
+{
+  "titulo": "La Ultima Prueba",
+  "vida": 100,
+  "objeto": "",
+  "fondo": "final_03.jpg",
+  "musica": "final.mp3",
+  "personaje": "Mago",
+  "opciones": [
+    "Continuar"
+  ],
+  "direcciones": [
+"final_04"
+  ],
+  "condiciones": [
+    "true",
+    "true",
+    "true"
+  ],
+  "texto": "Cierras los ojos y respiras profundamente. Poco a poco, sientes cómo tu mente se calma, igual que el río frente a ti&Cuando los abres de nuevo, el agua ya no es un torbellino; ahora es un espejo tranquilo que refleja los arboles y el cielo&'Has pasado la prueba', dice la bruja ojos de gato, su voz más suave ahora, casi serena&Sigues la dirección de su mirada y ves el bote que estaba junto a la orilla&-'Este bote te llevará al otro lado'-, continúa. -'Pero recuerda: la verdadera magia no está en los hechizos que conjuras&sino en la calma que encuentras dentro de ti'-&Asientes en silencio y subes al bote. Sientes cómo el río, ahora manso, parece guiar cada uno de tus movimientos&Remas despacio, escuchando el susurro del agua que te rodea. No miras atrás hasta que llegas a la otra orilla."
+}
